@@ -3,6 +3,13 @@
   <groupId>DesignPatternsExample</groupId>
   <artifactId>DesignPatternsExample</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>javax.servlet</groupId>
+  		<artifactId>servlet-api</artifactId>
+  		<version>2.5</version>
+  	</dependency>
+  </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -16,4 +23,5 @@
       </plugin>
     </plugins>
   </build>
+  
 </project>
