@@ -4,6 +4,11 @@ import java.io.Serializable;
 
 public class EagerSingleton implements Serializable{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	private static final EagerSingleton singleton = new EagerSingleton();
 	
 	private int val;
